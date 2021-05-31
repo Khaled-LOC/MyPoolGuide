@@ -1,5 +1,6 @@
-﻿ /* Remove default bullets */
-ul, #myUL {
+﻿/* Remove default bullets */
+ul,
+#myUL {
   list-style-type: none;
 }
 
@@ -36,4 +37,47 @@ ul, #myUL {
 /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
 .active {
   display: block;
-} 
+}
+
+.auto-style1 {
+  margin-top: 0px;
+}
+
+.bloc1,
+.bloc2 {
+  display: inline;
+  float: left;
+  padding: 2%;
+  color: black;
+  background-color: #f8f8f8;
+  width: 50%;
+  height: auto;
+  border: solid black;
+  text-align: left;
+}
+
+.container1 {
+  position: relative;
+}
+
+.container2 {
+  position: relative;
+}
+
+.bloc3 {
+  position: absolute;
+  left: 0;
+  float: left;
+  padding: 2%;
+  color: black;
+  background-color: #f8f8f8;
+  width: 1000px;
+  height: auto;
+  border: solid black;
+  text-align: left;
+}
+
+.auto-style2 {
+  margin-top: 0px;
+  margin-left: 80px;
+}
