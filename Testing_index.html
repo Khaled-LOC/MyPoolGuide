@@ -13,19 +13,20 @@
   </head>
 
   <body>
-    <p>Index</p>
 
     <h1 class="auto-style2">My Guide</h1>
 
     <div class="container1" style="width: 1000px; height: 2000px">
-      <h2>Menu 1</h2>
-
       <!-- div_Tests -->
       <div class="bloc1" style="width: 450px; height: 1500px">
         <h2>Index</h2>
         <!-- <ul id="myUL"> -->
-        <!-- <ol class="auto-style1"> -->
-        <ol id="myUL">
+        <ol class="auto-style1">
+        <!-- <ol id="myUL"> -->
+          <!-- to be able to open the link in a new tab, we should use {{ target="_blank" rel="noopener noreferrer" }} -->
+          <!-- to avoid injection, we should use {{ rel="noopener noreferrer" }} -->
+          <li><a href="https://drive.google.com/drive/folders/1ldrgEb51nCMnP1ydv4OYfvCFc_rMLbCE" target="_blank" rel="noopener noreferrer">SmsTesterTools_Global</a><br>
+            To view all the documents related to Tester</li>
           <li><a href="https://docs.google.com/document/d/1uY7zwH8eypKTLQP6ReYiMABQFrpY50_5_1xhHYF5UyQ/edit" target="_blank" rel="noopener noreferrer">UrlTester Master</a></li>
           <li><span class="caret">LABHOST2</span>
             <!-- <ul class="auto-style1"> -->
@@ -72,7 +73,6 @@
                     </ul>
                   </li>
                   <li><a href="https://docs.google.com/document/d/1YnT0NwC7KOUhCVc5ALCCFodGTu0WH6RMZ9gCf12neFI/edit" target="_blank" rel="noopener noreferrer">LABWEB2_UrlTester_Doc</a></li>
-                  <li><a href="https://docs.google.com/spreadsheets/d/1dhKHgTn1_Gh5MQ_VJfuAWqb9XdckKJdU3IM-xvrsTUc/edit#gid=0" target="_blank" rel="noopener noreferrer">LABWEB2_Testing_Report</a></li>
                   <li><a href="https://docs.google.com/spreadsheets/d/1JiFlJ_d5-LkxOo6MuoL_5YzfvaL7Yrg7Heqt2c15umI/edit#gid=843715783" target="_blank" rel="noopener noreferrer">LABWEB2_ServerDetails_Doc</a></li>
                 </ul>
               </li>
@@ -80,26 +80,72 @@
           </li>
           <li><span class="caret"><a href="https://drive.google.com/drive/folders/1BiN7_-YdYTqTwzxTnIHjclgEEjfQYbNP" target="_blank" rel="noopener noreferrer">Brute_Force_Attack</a></span>
             <ul class="nested">
-              <li><a href="https://docs.google.com/document/d/1ZqnedduEXKjaH2BCTmYXycNzJEpg4f7LE_NaK9q9UYA/edit" target="_blank" rel="noopener noreferrer">BRUTE_FORCE_ATTACK_APPLEGREEN_Test</a></li>
-              <li><a href="https://docs.google.com/document/d/1EKoaTXOfEZ2wFI700MYdMphJ5AKFrriXpf-RDQEEBQE/edit" target="_blank" rel="noopener noreferrer">BRUTE_FORCE_ATTACK_Doc</a></li>
-              <li><a href="https://docs.google.com/document/d/15ZtulLY6kka1HhLPgu43Yv3Y6i-rFdjxoGDCbKN5s7g/edit" target="_blank" rel="noopener noreferrer">BRUTE_FORCE_ATTACK_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1ZqnedduEXKjaH2BCTmYXycNzJEpg4f7LE_NaK9q9UYA/edit" target="_blank" rel="noopener noreferrer">BRUTE_FORCE_ATTACK_APPLEGREEN_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1EKoaTXOfEZ2wFI700MYdMphJ5AKFrriXpf-RDQEEBQE/edit" target="_blank" rel="noopener noreferrer">BRUTE_FORCE_ATTACK_Doc</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/15ZtulLY6kka1HhLPgu43Yv3Y6i-rFdjxoGDCbKN5s7g/edit" target="_blank" rel="noopener noreferrer">BRUTE_FORCE_ATTACK_Test</a></li>
             </ul>
           </li>
           <li><span class="caret"><a href="https://drive.google.com/drive/folders/1QVSX9HbmZjmHbzttVeUihrf3ubCFTCnh" target="_blank" rel="noopener noreferrer">Webbot</a></span>
             <ul class="nested">
-              <li><a href="https://docs.google.com/document/d/16ISR_FzHh-BaBtF8lBlNma2cXcrjorzZ0USbTOMp-EM/edit" target="_blank" rel="noopener noreferrer">WEBBOT_BALANCING_Test</a></li>
-              <li><a href="https://docs.google.com/document/d/1PrtifWQn8LZwTQtHfjGQxJwaoOnP5LhuOqHgTns2B0g/edit" target="_blank" rel="noopener noreferrer">WEBBOT_ON_HOST_Test</a></li>
-              <li><a href="https://docs.google.com/document/d/1cey5m-R-5ajzpNd930YNG3QHq_AcqlQsbL2Zq7a-fck/edit#heading=h.bixcbfdazww1" target="_blank" rel="noopener noreferrer">WEBBOT_REPEAT_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/16ISR_FzHh-BaBtF8lBlNma2cXcrjorzZ0USbTOMp-EM/edit" target="_blank" rel="noopener noreferrer">WEBBOT_BALANCING_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1PrtifWQn8LZwTQtHfjGQxJwaoOnP5LhuOqHgTns2B0g/edit" target="_blank" rel="noopener noreferrer">WEBBOT_ON_HOST_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1cey5m-R-5ajzpNd930YNG3QHq_AcqlQsbL2Zq7a-fck/edit#heading=h.bixcbfdazww1" target="_blank" rel="noopener noreferrer">WEBBOT_REPEAT_Test</a></li>
             </ul>
           </li>
           <li><span class="caret"><a href="https://drive.google.com/drive/folders/1rDGGhVZO-WuRhkJOkB7FoJ2IVx4kV_CY" target="_blank" rel="noopener noreferrer">SmsHttpService</a></span>
             <ul class="nested">
-              <li><a href="https://docs.google.com/document/d/127rjmS9vK7vxLOXj3VZRRnNa4fu2dObpIu1zLvz3-2c/edit#heading=h.zgtryssto71o" target="_blank" rel="noopener noreferrer">CUSTOM_DETECT_SAMPLES_Test</a></li>
-              <li><a href="https://docs.google.com/document/d/1vp_V-6pDdrAzqWPyEoVGCyAFyWJkCwtkKSPtbmMGWrE/edit" target="_blank" rel="noopener noreferrer">HOST_ECOM_KEY_APPLEGREEN_Test</a></li>
-              <li><a href="https://docs.google.com/document/d/19lM3dMYVYSfLCs5LJs8a3KTz356SojbMSGLCMqB4dAs/edit#heading=h.ymqbz6xqe3e4" target="_blank" rel="noopener noreferrer">HTTPSERVICE_SOFTWARE_INSTALLATION</a></li>
-              <li><a href="https://docs.google.com/document/d/14w-J0oBhJl-HzpvgVc8VBiFO13Q_hn-ahYBRcc3GUTw/edit" target="_blank" rel="noopener noreferrer">PASSPHRASE_TOKEN_CERTIFICATE_Test</a></li>
-              <li><a href="https://docs.google.com/document/d/1ApreLFMadDvfhHkaQhRmuux4o9gYzRZ4-65JxLpj-FA/edit#heading=h.y7kvmaj8hk9b" target="_blank" rel="noopener noreferrer">WEBSOCKET_UPLINK_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/127rjmS9vK7vxLOXj3VZRRnNa4fu2dObpIu1zLvz3-2c/edit#heading=h.zgtryssto71o" target="_blank" rel="noopener noreferrer">CUSTOM_DETECT_SAMPLES_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1vp_V-6pDdrAzqWPyEoVGCyAFyWJkCwtkKSPtbmMGWrE/edit" target="_blank" rel="noopener noreferrer">HOST_ECOM_KEY_APPLEGREEN_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/19lM3dMYVYSfLCs5LJs8a3KTz356SojbMSGLCMqB4dAs/edit#heading=h.ymqbz6xqe3e4" target="_blank" rel="noopener noreferrer">HTTPSERVICE_SOFTWARE_INSTALLATION</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/14w-J0oBhJl-HzpvgVc8VBiFO13Q_hn-ahYBRcc3GUTw/edit" target="_blank" rel="noopener noreferrer">PASSPHRASE_TOKEN_CERTIFICATE_Test</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1ApreLFMadDvfhHkaQhRmuux4o9gYzRZ4-65JxLpj-FA/edit#heading=h.y7kvmaj8hk9b" target="_blank" rel="noopener noreferrer">WEBSOCKET_UPLINK_Test</a></li>
+              <li><span class="caret"><a href="https://drive.google.com/drive/folders/1Y0QxAsUnpHquRhjsSmiDeEk2-2gTjVwj" target="_blank" rel="noopener noreferrer">xStore_MSKU</a></span>
+                <ul class="nested">
+                  <li class="list-style-type-square"><a href="https://docs.google.com/spreadsheets/d/1C3rYnZ6MX-7bVCkFV8PYqxSgZGRbaUUOqLXXc-X_TNg/edit#gid=405916057" target="_blank" rel="noopener noreferrer">MSKU_TestReport</a></li>
+                  <li class="list-style-type-square"><a href="https://docs.google.com/document/d/177mMRkqI0OtWK9oQUqtlz5BM5TOWRrUvfrlCXieB3iI/edit" target="_blank" rel="noopener noreferrer">xStore_MSKU_Doc</a></li>
+                </ul>
+              </li>
             </ul>
+          </li>
+          <li><span class="caret"><a href="https://drive.google.com/drive/folders/1IHkdZgXTNxUdegOHb3UeoF6Cyc3HAGPe" target="_blank" rel="noopener noreferrer">SmsPay</a></span>
+            <ul class="nested">
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1FlMqfUiUpPTFeegbKmT-0lrVjhoBFgiQIV2omkg-xOQ/edit" target="_blank" rel="noopener noreferrer">SmsPayTesting_MultiSession_Ricardo_Doc</a></li>
+            </ul>
+          </li>
+          <li><span class="caret"><a href="https://drive.google.com/drive/folders/19bGxyMbxX7SllH8DDRbZo08fGVzK1PT6" target="_blank" rel="noopener noreferrer">Applegreen</a></span>
+            <ul class="nested">
+              <li class="list-style-type-square"><a href="https://docs.google.com/spreadsheets/d/1MoI0TceY9yrAjbe6LKJDb-xeCI5V9H99PN_wgwUe0uw/edit#gid=1200867889" target="_blank" rel="noopener noreferrer">Applegreen_Testing</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1sNaY4DBBPIXV3r_yvZJmBeWpD3RD3qfrSpJXErJJwa8/edit" target="_blank" rel="noopener noreferrer">Applegreen_Testing_Doc</a></li>
+              <li class="list-style-type-square"><a href="https://docs.google.com/spreadsheets/d/1Kpw9QN3Xca4mO8ksJK0RQbLODm7OlKqjKALhXF_gNiU/edit#gid=0" target="_blank" rel="noopener noreferrer">Scripts_Details</a></li>
+            </ul>
+          </li>
+          <li><span class="caret"><a href="https://drive.google.com/drive/folders/1hvxr5ba8FTSuHzV6h1Mm3oRooasakLO8" target="_blank" rel="noopener noreferrer">CityAvenue</a></span>
+            <ul class="nested">
+              <li class="list-style-type-square"><a href="https://docs.google.com/document/d/1p3mCNkngSDLlPgLWlp2YaQ95g5-BhDbD4t4aYM2Bv14/edit" target="_blank" rel="noopener noreferrer">CITYAVENUE_Test_Doc</a></li>
+            </ul>
+          </li>
+          <li><span class="caret"><a href="https://drive.google.com/drive/folders/1g2d-y-DeYwjUZArSMl3S96LkJ4Mk8OgG" target="_blank" rel="noopener noreferrer">CouponTesting</a></span>
+            <ul class="nested">
+              <li class="list-style-type-square">Inside loc_share<br>
+                <a href="https://docs.google.com/document/d/143xbhR6gonT_VFuovMKZD4bWzFdP1lxp-hQQLn9b18A/edit#heading=h.ggd9ukpwv4i9" target="_blank" rel="noopener noreferrer">CouponTesting_Anna_Doc</a></li>
+              <li class="list-style-type-square">Inside GoogleDrive<br>
+                <a href="https://docs.google.com/document/d/143xbhR6gonT_VFuovMKZD4bWzFdP1lxp-hQQLn9b18A/edit#heading=h.ggd9ukpwv4i9" target="_blank" rel="noopener noreferrer">CouponTesting_Anna_Doc</a></li>
+              <li><a href="https://docs.google.com/document/d/1UBk4s3LARcT2WL2btZv7EjA9vcsGLaA1uwLSZ7rNrA4/edit#heading=h.m8e9nq96bdr1" target="_blank" rel="noopener noreferrer">ePos_installation_Doc</a></li>
+            </ul>
+          </li>
+          <li><span class="caret"><a href="https://drive.google.com/drive/folders/1bGk17bXPODRy9OVT4XGEGbp17dygYosc" target="_blank" rel="noopener noreferrer">HILO</a></span>
+            <ul class="nested">
+              <li class="list-style-type-square">
+                <a href="https://docs.google.com/document/d/1Kf9fO0YmWW987OfU9KJd-RRxMhOnP33Q-7BTx0L9_dE/edit" target="_blank" rel="noopener noreferrer">HILO_Testing_issues_Doc</a></li>
+            </ul>
+          </li>
+          <li><span class="caret"><a href="https://drive.google.com/drive/folders/1QTfGqBbkI6zzs5HWfRbn5uebReIxgbZK" target="_blank" rel="noopener noreferrer">Sunterra</a></span>
+            <ul class="nested">
+              <li class="list-style-type-square">
+                <a href="https://docs.google.com/document/d/10A9BmerJshsZBtGESsKlQTLXR-LdE39w8lN6KjJ6ko8/edit#heading=h.91wgb671qy47" target="_blank" rel="noopener noreferrer">Sunterra_Testing_Doc</a></li>
+              <li class="list-style-type-square">
+                <a href="https://docs.google.com/spreadsheets/d/1znJGg0Ym4biFH0d7ZAB5dfkcbFaJQ7B7RH6dEJ5hUuQ/edit#gid=0" target="_blank" rel="noopener noreferrer">Script_Details</a></li>
+              </ul>
           </li>
         </ol>
       </div>
@@ -110,7 +156,23 @@
         <ol class="auto-style1">
           <li><a href="https://docs.google.com/document/d/1sNScoTscV9fOzFuFOaGBYBL3iZTJRzVjCb3c3VOntVk/edit" target="_blank" rel="noopener noreferrer">Troubleshooting_General</a></li>
           <li><a href="https://docs.google.com/document/d/1hiIDA1UqfrQv8HTPDMCrS8YHtj9MnhiccRiII4reS9M/edit" target="_blank" rel="noopener noreferrer">Troubleshooting_Logs</a></li>
-        </ol>
+          <li><a href="https://docs.google.com/document/d/1jj98Mzx8uyAMCvhS3iy1zxTdPb-4d-KiJ-CWXV_kVLI/edit#heading=h.4nejj3u3snpd" target="_blank" rel="noopener noreferrer">Troubleshooting_URL</a></li>
+          <li><a href="https://drive.google.com/drive/folders/1n23MLx44ZOuPy-cQJUGhj8a4pNGhY6uW" target="_blank" rel="noopener noreferrer">Guide_Videos_General</a></li>
+          <li><span class="caret"><a href="https://drive.google.com/drive/folders/10c8RWXBHz9_0N7d_eL3rOx6NMl6aXgt9" target="_blank" rel="noopener noreferrer">QA_Checklists</a></span>
+            <ul class="nested">
+              <li><a href="https://docs.google.com/document/d/1EhSp5ttND8R6_KxEfU69qW8mhOQJ93tTEYnR66vzqAg/edit#" target="_blank" rel="noopener noreferrer">QA Checklist - SMSUrlTester</a></li>
+              <li><a href="https://docs.google.com/document/d/1tU02b62jhM9pp6qlTl7pvhMLrYh-G8KPzbxEEVOEOR4/edit#heading=h.dfxuv58nvaqi" target="_blank" rel="noopener noreferrer">QA Checklist - SMSLogViewerV45_11</a></li>
+                </ul>
+          </li>
+          <li><a href="https://docs.google.com/document/d/1IFG6gTAVqGz2stlq8ijy3Z-UROxvzhZy-YwaweTO3DM/edit#heading=h.omdatnecqni" target="_blank" rel="noopener noreferrer">HTTP_WIN_DIFFERENCE_Doc</a><br>
+            To know the difference between HTTP and WIN service</li>
+          <li><a href="https://docs.google.com/document/d/13GuLuzxHaevjVUGIxwy2JFEebIA1gPWo0vzcW6S9gl0/edit" target="_blank" rel="noopener noreferrer">SmsLogService_CSV_STAT</a><br>
+            To know about INFO_LOG_STAT.CSV</li>
+          <li><a href="https://docs.google.com/spreadsheets/d/1UGpdVKNCgt6Jo5gZKlz2DdxQaxFLd07hpyXJQjv4bvE/edit#gid=0" target="_blank" rel="noopener noreferrer">URL_Parameters_Collection_js</a><br>
+            To check the list of URL parameters collection from Javascript</li>
+          <li><a href="https://docs.google.com/spreadsheets/d/1lb5QYtyPeDPAkXT10-Dn_0wzn8UXH06-BYf9uMAL6hA/edit#gid=674755899" target="_blank" rel="noopener noreferrer">URLs_Collection_Comparison</a><br>
+            URL collection comparison between applegreen and themarket25th</li>
+            </ol>
       </div>
     </div>
 
